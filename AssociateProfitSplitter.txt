@@ -1,0 +1,20 @@
+
+The motivation behind this code is to write a contract that could take an amount of eth or wei and distributes this evenly, by using the functions written
+the creator/deployer of the contract can take a variable amount and send it from one wallet address to 3 different wallets/accounts. 
+
+Implement pragma solidity version 0.5.0,
+-Pragmas instructions for the complier about how to treat the source code. 
+
+Create the contract AssociateProfitSplitter
+-Use the payable address to specify where the funds will be deposited. 
+
+Initialize state variables using the constructor. 
+-Assign the varaible an address for the life of the contract, 
+use public to make those varaibles readable from outside. 
+
+Using the Blanace function returns a Balance
+
+The Deposit function takes in an amount of eth or wie and distrubites
+among the three employees using the transfer function, then
+sends back any remaining eth to the msg.sender
+

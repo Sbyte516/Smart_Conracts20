@@ -1,0 +1,21 @@
+
+The motivation behind this code is to write a contract that takes a total number shares and distributes them equally after a specified period of time. 
+
+Create Contract DefferedEquityPlan and declare state variables of type uint, address, bool.
+The payable employee is active at the start of the contact. Set the total shares and annual distribution values.
+
+The start time will be used for unlocking the contract to be set 365 day after the contract has been deployed. 
+Set the variables and message sender using the constructor.  
+
+The Distribute function has a set of requirements that when met unlock after 365 and automatically distrbte the total shares being held in the contract.
+The if statement checks if the employee has cashed out after 5+ years if not it keeps the shares at the value we set. 
+
+Deactivate Function require the msg.sender to be authorized.
+
+Revert function reverts any Ether sent to the contract directly.
+
+
+
+
+ 
+
